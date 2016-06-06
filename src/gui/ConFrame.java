@@ -56,8 +56,8 @@ public class ConFrame extends JPanel {
         Conn = Database.getCon(namef, namet);
         if(Conn.getIdf()== 0){
             JOptionPane.showMessageDialog(this,
-                    "Your Location is invalid. Try again.",
-                    "Location error",
+                    "Your Connection is invalid. Try again.",
+                    "Connection error",
                     JOptionPane.ERROR_MESSAGE);
         }
         ArrayList<Data> data ;
