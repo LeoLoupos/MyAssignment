@@ -72,8 +72,8 @@ public class ConFrame extends JPanel {
     public void shower(ArrayList<Data> dt){
         JFrame jf =new JFrame();
 
-        jf.setLocation(600,500);
-        jf.setSize(400,600);
+        jf.setLocation(300,250);
+        jf.setSize(400,200);
         //String[] columnNames = {"From", "ID", "To", " ID "};
         String[] columnNames = {"Arrival", "Department"};
         Object[][] locs = new Object[2][dt.size()];

@@ -122,8 +122,8 @@ public class Frame extends JFrame {
     public void shower(Location l){
         JFrame jf =new JFrame();
 
-        jf.setLocation(600,500);
-        jf.setSize(400,600);
+        jf.setLocation(300,250);
+        jf.setSize(400,200);
         String[] columnNames = {"Location Name", "ID", " X ", " Y "};
         Object[][] locs ={
                 {l.getName(),l.getId(),l.getX(),l.getY()},
